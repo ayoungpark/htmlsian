@@ -14,7 +14,7 @@
 #gnb>ul>li{float:left;border-left:1px solid #000;}
 #gnb>ul>li:first-child{border-left:none;}
 #gnb>ul>li>a{display:block;padding:0 10px;
-height:26px;line-height:26px;}
+height:20px;line-height:20px;}
 #gnb>ul>li>a:hover{color:skyblue;}
 
 /* logo */
