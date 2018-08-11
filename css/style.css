@@ -34,10 +34,69 @@ height:20px;line-height:20px;}
 #visual_wrap{height:392px;background:#213867 url(../images/visual_bg.jpg) no-repeat center;}
 
 #visual_wrap .visual{width: 1100px;height:480px;margin:0 auto;position:relative;}
-#visual_wrap .img01{position:absolute; right:0; bottom:0;}
-#visual_wrap .img02{position:absolute; left:0; top:80px;}
+#visual_wrap .img01{position:absolute; right:50px;top:-10px;}
+#visual_wrap .img02{position:absolute; left:65px; top:70px;}
 
 
+/* main_banner */
+
+#main_banner{background:#000;color:#fff;}
+
+#banner{width:980px;margin:0 auto;}
+
+#banner>ul{width:100%;overflow:hidden;}
+#banner>ul>li{width:20%;float:left;height:200px;cursor:pointer;text-align:center;}
+#banner>ul>li:nth-child(1){background:#7c99b9;}
+#banner>ul>li:nth-child(1):hover{background:#fff;color:#000;}
+
+#banner>ul>li:nth-child(2){background:rgb(79,116,161);}
+#banner>ul>li:nth-child(2):hover{background:#fff;color:#000;}
+
+#banner>ul>li:nth-child(3){background:rgb(75,140,224);}
+#banner>ul>li:nth-child(3):hover{background:#fff;color:#000;}
+
+#banner>ul>li:nth-child(4){background:rgb(61,181,242);}
+#banner>ul>li:nth-child(4):hover{background:#fff;color:#000;}
+
+#banner>ul>li:nth-child(5){background:rgb(149,200,255);}
+#banner>ul>li:nth-child(5):hover{background:#fff;color:#000;}
+
+/* article */
+
+.card{width:100%;padding-top: 15px;padding-bottom:15px;}
+.card img{display:block;margin:0 auto;}
+.card-body{padding:20px;}
+.card-title{margin-bottom:5px;}
+
+#main_article{width: 980px;margin:0 auto;color:#000;}
+#main_article >ul{overflow:hidden;}
+#main_article >ul>li{float:left;width:310px;margin-right:25px;}
+#main_article >ul>li:last-child{float:right;margin-right:0px;}
+#main_article .card-body{border:1px solid #ddd; border-top:none;}
+#main_article .card-text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+#bottom_article{width: 980px;margin:0 auto;color:#000;}
+#bottom_article>ul{overflow:hidden;}
+#bottom_article>ul>li{float:left;width:310px;margin-right:25px;}
+#bottom_article>ul>li:last-child{float:left;margin-right:0px;}
+#bottom_article .card{border:1px solid #ddd;height:px;display:block;position:relative;}
+#bottom_article .card img{position:absolute;left:180px;top:50px;width:41%;}
+#bottom_article a{color:blue;}
+#bottom_article a:hover{font-weight:bold;color:blue;}
+#bottom_article .card-text{padding-bottom:_5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 
 
 
