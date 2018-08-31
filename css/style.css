@@ -340,29 +340,39 @@ _#bottom_article .card img {
 
 #main_footer {
     width: 100%;
-    height:40px;
+    height:190px;
     border:_1px solid red;
-    background: #464646;
+    background: #636363;
+
 }
 
 .bottom-body {
+	background: #464646;
+	height: 36px;
 	
+
 }
 .text { 
 	width: 980px;
 	margin:0 auto;
+
 	
 }
 .footer1 li{
 	float: left;
-	line-height: 40px;
+	height: 25px;
+	text-align: center;
 	border-left: 1px solid #fff;
-	font-size: 15px;
-	padding:0 20px;
+	
+	
 
 }
 .footer1 a {
 	color:#fff;
+	font-size: 15px;
+	padding:0 20px;
+	line-height: 40px;
+	
 	
 }
 .footer1 li:first-child {
@@ -383,17 +393,39 @@ _#bottom_article .card img {
 }
 #main_footer .bottom-text {
 	width: 980px;
-	border:1px solid red;
-	float: left;
+	border:_1px solid red;
+	margin-top:40px;
 	margin:0 auto;
+}
+
+.bottom-text {
+	width: 100%;
+	
+	color:#fff;
+}
+.text-title {
+	float: left;
+	margin:10px;
+
 }
 
 .text-bottom1 {
 	float:left;
+	font-size: 13px;
+	padding-top:20px;
+	padding-bottom: 20px;
 }
-.text-bottom2 {
-	float:left;
+.text-bottom1 h3 {
+	float: left;
+	padding-left: 10px;
 }
+.text-bottom1 p {
+	float: left;
+	padding: 0 5px;
+	width: 700px;
+	margin:0 80px;
+}
+
 
 
 
